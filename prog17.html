@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --x:red;
+            --n:green;
+        }
+        p{
+            color: var(--x);
+        }
+        #p2{
+            --y:blue;
+        }
+        h1{
+            color: var(--y);
+        }
+        #p1{
+            --z:yellow;
+            color: var(--z);
+        }
+        body{
+            background-color:var(--n) ;
+        }
+    </style>
+</head>
+<body>
+    <!-- :root var() -->
+    <!-- var() function used to insert value to a css variable -->
+    <!-- variables-local scope global scope -->
+    <h1>Heading</h1>
+    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit temporibus dolores aspernatur assumenda praesentium similique quia consequuntur maxime, delectus animi vitae tempora ipsum eligendi soluta quas modi dicta labore recusandae!</p>
+    <p id="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae et dolorum pariatur aperiam consequatur asperiores deserunt quisquam aliquid sapiente unde minus, cupiditate sed exercitationem voluptates voluptate alias! Corporis, quae officiis.</p>
+</body>
+</html>

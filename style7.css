@@ -1,0 +1,15 @@
+@media (min-width:768px){
+    .im{
+        display: none;
+    }
+} 
+@media (max-width:768px){
+    .imm{
+        display: none;
+    }
+    
+}
+img{
+    width: 400px;
+    height: 400px;
+}

@@ -1,0 +1,9 @@
+@media(max-width:600px), (min-width:992px){
+    p{
+        font-size: 50px;
+        color: blue;    
+    }
+
+}
+
+

@@ -1,0 +1,14 @@
+div{
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+    border: 5px solid red;
+}
+#div1{
+    margin-left: 420px;
+    margin-top: -410px;
+}
+#div2{
+    margin-left: 840px;
+    margin-top: -410px;
+}
